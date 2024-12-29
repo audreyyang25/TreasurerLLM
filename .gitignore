@@ -1,0 +1,26 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment directories
+venv/
+.venv/
+
+# Ignore log files
+*.log
+
+# Ignore OS-specific files (e.g., macOS .DS_Store)
+.DS_Store
+
+# Ignore IDE-specific files (e.g., VS Code, PyCharm)
+.vscode/
+
+# Ignore test output
+tests/output/
+
+# Ignore pipenv files
+Pipfile.lock
+
+# Ignore coverage reports
+.coverage
